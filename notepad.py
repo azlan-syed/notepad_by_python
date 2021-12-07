@@ -116,7 +116,7 @@ if __name__ == '__main__':
 
     root.config(menu=MenuBar)
 
-    #Adding Scrollbar using rules from Tkinter lecture no 22
+    #Adding Scrollbar using rules
     Scroll = Scrollbar(TextArea)
     Scroll.pack(side=RIGHT,  fill=Y)
     Scroll.config(command=TextArea.yview)
